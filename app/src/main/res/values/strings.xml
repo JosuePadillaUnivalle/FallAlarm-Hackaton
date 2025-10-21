@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FallAlarm</string>
+    
+    <!-- MainActivity -->
+    <string name="app_title">FallAlarm – Detector de Caídas</string>
+    <string name="app_description">Activa la vigilancia. Si el teléfono se cae o se agita con fuerza, sonará una alarma hasta que confirmes que estás bien.</string>
+    <string name="activate_surveillance">Activar vigilancia</string>
+    <string name="deactivate_surveillance">Desactivar vigilancia</string>
+    <string name="surveillance_status">Vigilancia: %s</string>
+    <string name="surveillance_active">Activada</string>
+    <string name="surveillance_inactive">Desactivada</string>
+    
+    <!-- EmergencyActivity -->
+    <string name="emergency_title">¡Posible emergencia!</string>
+    <string name="emergency_message">Se detectó una sacudida o caída. Presiona el botón si estás bien.</string>
+    <string name="im_ok_button">Estoy bien</string>
+    
+    <!-- Service -->
+    <string name="service_notification_title">FallAlarm activo</string>
+    <string name="service_notification_text">Vigilancia de caídas en funcionamiento</string>
+    <string name="service_channel_name">FallAlarm Service</string>
+    <string name="service_channel_description">Notificaciones del servicio de vigilancia</string>
+    
+    <!-- Permissions -->
+    <string name="notification_permission_required">Se requiere permiso de notificaciones para el funcionamiento del servicio</string>
+    <string name="grant_permission">Conceder permiso</string>
+    
+    <!-- ML Kit -->
+    <string name="ml_capabilities">Capacidades de IA</string>
+    <string name="ml_fall_detection">Detección inteligente de caídas</string>
+    <string name="ml_motion_analysis">Análisis de patrones de movimiento</string>
+    <string name="ml_confidence">Confianza: %s</string>
+    <string name="ml_active">IA Activa</string>
+    <string name="ml_inactive">IA Inactiva</string>
+</resources>

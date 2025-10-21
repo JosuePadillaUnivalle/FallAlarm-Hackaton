@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FallAlarm" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnError">@color/on_error</item>
+    </style>
+
+    <style name="Theme.FallAlarm" parent="Base.Theme.FallAlarm" />
+    
+    <!-- Tema para pantalla de emergencia -->
+    <style name="Theme.FallAlarm.Emergency" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/emergency_background</item>
+        <item name="colorSurface">@color/emergency_surface</item>
+        <item name="colorPrimary">@color/emergency_primary</item>
+        <item name="colorOnPrimary">@color/emergency_text</item>
+        <item name="colorOnSurface">@color/emergency_text</item>
+        <item name="colorOnBackground">@color/emergency_text</item>
+        <item name="android:windowBackground">@color/emergency_background</item>
+        <item name="android:statusBarColor">@color/emergency_background</item>
+        <item name="android:navigationBarColor">@color/emergency_background</item>
+    </style>
+</resources>
